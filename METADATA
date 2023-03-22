@@ -1,0 +1,13 @@
+name: "Google Proxies for Enterprise Certificates"
+description:
+    "Repository for the Enterprise Certificate Proxy project."
+
+third_party {
+  url {
+    type: GIT
+    value: "https://github.com/googleapis/enterprise-certificate-proxy"
+  }
+  version: "v0.2.3"
+  last_upgrade_date { year: 2023 month: 3 day: 22 }
+  license_type: NOTICE
+}
